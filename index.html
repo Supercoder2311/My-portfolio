@@ -1,37 +1,66 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <title>My portfolio website: By AG(Ayaansh Gulati)</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <section id="app">
-        <h1>apps</h1>
-        <div class="line">
 
+    <div class="container">
+
+        <section id="app">
+            <h1>Apps</h1>
+            <div class="line"></div>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/AmAIOlod-80aGvVFcBdbfjebPGUlVaYjI8ECZcJtZks/embed"></iframe>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/U9AQsuLnTixFr5caYUBM9qmkuaPCvmuWblFMcUPrC14/embed"></iframe>
+        </section>
+
+        <!--
+Start your code from here
+-->
+        <h2>Click on the games to explore</h2>
+        <h5>Thiese games are built in game lab, click on the game to play.</h5>
+        <div id="MyCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="Winne_Pooh.png" class="img-reponsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Winnie the pooh</p>
+                        </div>
+                    </center>
+                </div>
+
+                <div class="item">
+                    <center>
+                        <a href="#" target="_blank">
+                            <img src="Car_game.png" class="img-reponsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Car Game</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <a href="#MyCarousel" class="left carousel-control" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left">
+
+                </span>
+            </a>
+            <a href="#MyCarousel" class="right carousel-control" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right">
+                </span>
+            </a>
         </div>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/YaSOuf5pURYmW32doUfXmJIZ5EsswZar86HciTBjh5Y/embed"></iframe>
-        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/B8Z760KOx_QZpqKYG9ZnFycmKAquGpuouWCvrJ_kc3s/embed"></iframe>
-    </section>
-    <section id="game">
-        <h1>games</h1>
-        <div class="line">
-
-        </div>
-        <a href="https://studio.code.org/projects/playlab/tvAFKaBy5_95_aqMyk3Ahem3MCcJhM0Qtk7yBf3J1yk">
-            <img src="math%20quizer.png">
-        </a>
-        <a href="https://studio.code.org/projects/playlab/iWjxJkRlhYx-lgN5X_NjF_pQpwrGpazuieIgFesNDJ0">
-
-            <img src="video%20game%20png.png">
-        </a>
-    </section>
-    <section id="chatbot">
-    <h1>chatbot</h1>
-        <div class="line"></div>
-<iframe allow="microphone;" width="350" height="500" src="https://console.dialogflow.com/api-client/demo/embedded/c0d95aa9-708c-49ab-9a95-2efa03545ec1"> </iframe>
-    </section>
+    </div>
 </body>
 
 </html>
